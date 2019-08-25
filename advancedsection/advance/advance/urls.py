@@ -19,6 +19,6 @@ from basicapp import views
 
 
 urlpatterns = [
-    path ('', views.ClassBasedView.as_view()),
+    path('', views.Index.as_view()),
     path('admin/', admin.site.urls),
 ]
